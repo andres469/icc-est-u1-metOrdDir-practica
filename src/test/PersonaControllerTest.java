@@ -20,9 +20,10 @@ public class PersonaControllerTest {
 
     public static Person[] makePersonList() {
         Person[] people = new Person[20];
+        people[6] = new Person("Grace", 29);
+        people[2] = new Person("Charlie", 35);
         people[0] = new Person("Alice", 30);
         people[1] = new Person("Bob", 25);
-        people[2] = new Person("Charlie", 35);
         people[3] = new Person("David", 28);
         people[4] = new Person("Emma", 32);
         people[5] = new Person("Frank", 27);
